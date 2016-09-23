@@ -1,0 +1,50 @@
+body {
+	background: url(whitebg.jpg);
+	background-size: cover;
+}
+#average {
+	width: 52px;
+}
+#animation{
+	border-color: black;
+}
+#buttons{
+	border:4;
+	background: url(mariolevel.png);
+	background-size: cover;
+	border-color: black;
+}
+.textbox{
+	background-color: powderblue;
+	border-color: green;
+}
+.c1 {
+	color: green;
+	height: 20px;
+	width: 20px;
+	margin: 0 auto;
+	padding: 0 10px 0 10px;
+}
+.c2 {
+	color: blue;
+	height: 20px;
+	width: 20px;
+	margin: 0 auto;
+	padding: 0 10px 0 10px;
+    align: center;
+}
+.c3 {
+	color: orange;
+	height: 20px;
+	width: 20px;
+	margin: 0 auto;
+	padding: 0 10px 0 10px;
+}
+.c4 {
+	color: brown;
+	height: 20px;
+	width: 20px;
+	margin: 0 auto;
+	padding: 0 10px 0 10px;
+}
+
