@@ -1,0 +1,151 @@
+/*
+.adeliepenguins {border: 10px;
+		 border-style: solid;
+		 border-color: rgb(0,0,0);
+}
+.adeliepenguin{table-layout: fixed;
+}
+.adeliepenguin, td, th{border-collapse: collapse; 
+			  border: 1px solid rgb(0,0,0);
+			  overflow-x: hidden;
+}
+th{padding: 20px 7px; font-size: 15px; color: #444; background: #66C2E0}
+td{height:35px;}
+.adeliepenguins {overflow-x: scroll;}
+th, td {min-width: 200px;}
+
+.chinstrappenguins {border: 10px;
+		 border-style: solid;
+		 border-color: rgb(0,0,0);
+}
+.chinstrappenguin{table-layout: fixed;
+}
+.chinstrappenguin, td, th{border-collapse: collapse; 
+			  border: 1px solid rgb(0,0,0);
+			  overflow-x: hidden;
+}
+th{padding: 20px 7px; font-size: 15px; color: #444; background: #66C2E0}
+td{height:35px;}
+.chinstrappenguins {overflow-x: scroll;}
+th, td {min-width: 200px;}
+
+.emperorpenguins {border: 10px;
+		 border-style: solid;
+		 border-color: rgb(0,0,0);
+}
+.emperorpenguin{table-layout: fixed;
+}
+.emperorpenguin, td, th{border-collapse: collapse; 
+			  border: 1px solid rgb(0,0,0);
+			  overflow-x: hidden;
+}
+th{padding: 20px 7px; font-size: 15px; color: #444; background: #66C2E0}
+td{height:35px;}
+.emperorpenguins {overflow-x: scroll;}
+th, td {min-width: 200px;}
+
+.gentoopenguins {border: 10px;
+		 border-style: solid;
+		 border-color: rgb(0,0,0);
+}
+.gentoopenguin{table-layout: fixed;
+}
+.gentoopenguin, td, th{border-collapse: collapse; 
+			  border: 1px solid rgb(0,0,0);
+			  overflow-x: hidden;
+}
+th{padding: 20px 7px; font-size: 15px; color: #444; background: #66C2E0}
+td{height:35px;}
+.gentoopenguins {overflow-x: scroll;}
+th, td {min-width: 200px;}
+
+.magellanicpenguins {border: 10px;
+		 border-style: solid;
+		 border-color: rgb(0,0,0);
+}
+.magellanicpenguin{table-layout: fixed;
+}
+.magellanicpenguin, td, th{border-collapse: collapse; 
+			  border: 1px solid rgb(0,0,0);
+			  overflow-x: hidden;
+}
+th{padding: 20px 7px; font-size: 15px; color: #444; background: #66C2E0}
+td{height:35px;}
+.magellanicpenguins {overflow-x: scroll;}
+th, td {min-width: 200px;}
+
+.northernrockhopperpenguins {border: 10px;
+		 border-style: solid;
+		 border-color: rgb(0,0,0);
+}
+.northernrockhopperpenguin{table-layout: fixed;
+}
+.northernrockhopperpenguin, td, th{border-collapse: collapse; 
+			  border: 1px solid rgb(0,0,0);
+			  overflow-x: hidden;
+}
+th{padding: 20px 7px; font-size: 15px; color: #444; background: #66C2E0}
+td{height:35px;}
+.northernrockhopperpenguins {overflow-x: scroll;}
+th, td {min-width: 200px;}
+
+.royalpenguins {border: 10px;
+		 border-style: solid;
+		 border-color: rgb(0,0,0);
+}
+.royalpenguin{table-layout: fixed;
+}
+.royalpenguin, td, th{border-collapse: collapse; 
+			  border: 1px solid rgb(0,0,0);
+			  overflow-x: hidden;
+}
+th{padding: 20px 7px; font-size: 15px; color: #444; background: #66C2E0}
+td{height:35px;}
+.royalpenguins {overflow-x: scroll;}
+th, td {min-width: 200px;}
+
+.yelloweyedpenguins {border: 10px;
+		 border-style: solid;
+		 border-color: rgb(0,0,0);
+}
+.yelloweyedpenguin{table-layout: fixed;
+}
+.yelloweyedpenguin, td, th{border-collapse: collapse; 
+			  border: 1px solid rgb(0,0,0);
+			  overflow-x: hidden;
+}
+th{padding: 20px 7px; font-size: 15px; color: #444; background: #66C2E0}
+td{height:35px;}
+.yelloweyedpenguins {overflow-x: scroll;}
+th, td {min-width: 200px;}
+*/
+.penguinbody {
+	background: url(penguinbackground.jpg);
+	background-size: cover;
+}
+.penguinh1 {
+	font-family: 'Amatic SC';
+	font-size: 100px;
+	color: white;
+}
+.penguinh2 {
+	font-family: 'Amatic SC';
+	font-size: 50px;
+	color: white;
+}
+.penguins {border: 10px;
+		 border-style: solid;
+		 border-color: rgb(0,0,0);
+}
+.penguins{table-layout: fixed;
+}
+.penguins, td, th{border-collapse: collapse; 
+			  border: 1px solid rgb(0,0,0);
+			  overflow-x: hidden;
+}
+th{padding: 20px 7px; font-size: 15px; color: #444; background: #66C2E0}
+td{height:35px;}
+.penguins {overflow-x: scroll;}
+th, td {min-width: 200px;}
+
+
