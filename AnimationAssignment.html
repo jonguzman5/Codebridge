@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">	
+	<title>Task</title>
+</head>
+<body class="weatherbody">
+<h1 id="weatherheader"><center>Weather</center></h1>
+<center><div class="dropdown">
+  <button onclick="myFunction()" class="dropbutton">Weekly Forecast</button>
+  <nav id="mydropdown" class="menu-items">
+    <nav>Monday</nav>
+    <nav>Tuesday</nav>
+    <nav>Wednesday</nav>
+    <nav>Thursday</nav>
+    <nav>Friday</nav>
+    <nav>Saturday</nav>
+    <nav>Sunday</nav>
+  </nav>
+  </div>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br>
+<style>
+.weatherbody {
+	background: url(skywallpaper.jpg);
+	background-size: cover;
+}
+#weatherheader {
+	font-size: 80px;
+	font-family: 'Indie Flower';
+}
+.dropbutton{
+    background-color: powderblue;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+.dropbutton:hover, .dropbutton:focus {
+    background-color: grey;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.menu-items {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
+}
+.menu-items a{
+    color: black;
+    padding: 12px 16px;
+    display: block;
+}
+.menu-items a:hover {background-color: grey}
+.show {display:block;}
+</style>
+
+<script>
+	function myFunction() {
+    document.getElementById("mydropdown").classList.toggle("show");
+}
+window.onclick = function(display) {
+  if (!display.target.matches('.dropbutton')) {
+
+    var downdrop = document.getElementsByClassName("menu-items");
+    var i;
+    for (i = 0; i < downdrop.length; i++) {
+      var opendropdown = downdrop[i];
+      if (opendropdown.classList.contains('show')) {
+        opendropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+
+<style>
+#myContainer {
+	width: 500px; 
+	height: 450px;
+	position: relative;
+	background: url(sky.jpg);
+	background-size: cover;
+}
+#myAnimation {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	background-color: blue;
+}
+</style>
+
+<center><div id="myContainer">
+<div id="myAnimation"> <img src="cloud.png" height="100" width="150"></div>	
+</div></center>
+
+<center><button onclick="move()">Click Me</button></center>
+
+<script>
+function move() {
+	var elem = document.getElementById("myAnimation");
+	var pos = 0;
+	var id = setInterval(frame, 5);
+function frame() {
+	if (pos == 350) {
+		clearInterval(id);
+	} else {
+		pos++;
+		elem.style.top = pos +'px';
+		elem.style.left = pos + 'px';
+	}
+  }	
+}
+</script>
+</body>
+</html>
