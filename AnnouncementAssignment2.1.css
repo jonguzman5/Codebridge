@@ -1,0 +1,92 @@
+body {background-color: rgb(0, 26, 35);}
+.wdback {
+	background: url(alexandria.jpg);
+	background-size: cover;
+}
+header {
+	color: rgb(68,7,7);
+	font-family: 'Nosifer', cursive;
+	text-align: center;
+	font-size: 8em;
+	background-image: url(walkingdeadheader.jpg);
+	background-size: cover;
+}
+h1 {
+	font-family: times;
+	text-decoration: underline;
+	text-align: center;
+	color: rgb(128, 136, 112);
+	font-size:  3em;
+	background-color: rgb(0, 13, 16);
+}
+h2 {
+	font-family: times;
+	text-align: center;
+	color: rgb(128, 136, 112);
+	font-size:  2em;
+	background-color: rgb(0, 13, 16);
+	font-style: italic;
+}
+h4 {
+	font-family: times;
+	text-align: center;
+	color: rgb(128, 136, 112);
+	font-size:  2em;
+	background-color: rgb(0, 13, 16);
+	font-style: italic;
+}
+p {
+	font-family: times;
+	font-weight: 550;
+	text-align: center;
+	color: rgb(128, 136, 112);
+	font-size: 2em;
+}
+.genrep {	
+	font-family: times;
+}
+#genre{
+	font-family: verdana;
+	font-weight: 900;
+	font-size: 2em;
+}
+ul {
+	text-align: center;
+	color: rgb(128, 136, 112);
+	list-style: none;
+	padding: 0 0 0 10px;
+}
+#starring {
+	font-family: times;
+	font-weight: 900;
+	font-size: 2em;
+}
+iframe {
+	align-content: center;
+}
+
+.wdcast {border: 10px;
+		 border-style: solid;
+		 border-color: rgb(0,0,0);
+}
+.cast{table-layout: fixed;
+}
+.cast, td, th{border-collapse:collapse; 
+			  border: 1px solid rgb(0,0,0);
+			  overflow-x: hidden;
+}
+th{padding: 20px 7px; font-size: 15px; color: #444; background: #66C2E0}
+td{height:35px;}
+.wdcast {overflow-x: scroll;}
+th, td {min-width: 200px;}
+
+.amcpng {
+	position: relative;
+}	
+footer {
+	font-family: times;
+	text-align: center;
+	color: rgb(128, 136, 112);
+	font-size:  1em;
+	background-color: rgb(0, 13, 16);
+	text-transform: uppercase;
