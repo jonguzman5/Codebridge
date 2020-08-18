@@ -5,7 +5,7 @@
 }
 .adeliepenguin{table-layout: fixed;
 }
-.adeliepenguin, td, th{border-collapse: collapse; 
+.adeliepenguin, td, th{border-collapse: collapse;
 			  border: 1px solid rgb(0,0,0);
 			  overflow-x: hidden;
 }
@@ -20,7 +20,7 @@ th, td {min-width: 200px;}
 }
 .chinstrappenguin{table-layout: fixed;
 }
-.chinstrappenguin, td, th{border-collapse: collapse; 
+.chinstrappenguin, td, th{border-collapse: collapse;
 			  border: 1px solid rgb(0,0,0);
 			  overflow-x: hidden;
 }
@@ -35,7 +35,7 @@ th, td {min-width: 200px;}
 }
 .emperorpenguin{table-layout: fixed;
 }
-.emperorpenguin, td, th{border-collapse: collapse; 
+.emperorpenguin, td, th{border-collapse: collapse;
 			  border: 1px solid rgb(0,0,0);
 			  overflow-x: hidden;
 }
@@ -50,7 +50,7 @@ th, td {min-width: 200px;}
 }
 .gentoopenguin{table-layout: fixed;
 }
-.gentoopenguin, td, th{border-collapse: collapse; 
+.gentoopenguin, td, th{border-collapse: collapse;
 			  border: 1px solid rgb(0,0,0);
 			  overflow-x: hidden;
 }
@@ -65,7 +65,7 @@ th, td {min-width: 200px;}
 }
 .magellanicpenguin{table-layout: fixed;
 }
-.magellanicpenguin, td, th{border-collapse: collapse; 
+.magellanicpenguin, td, th{border-collapse: collapse;
 			  border: 1px solid rgb(0,0,0);
 			  overflow-x: hidden;
 }
@@ -80,7 +80,7 @@ th, td {min-width: 200px;}
 }
 .northernrockhopperpenguin{table-layout: fixed;
 }
-.northernrockhopperpenguin, td, th{border-collapse: collapse; 
+.northernrockhopperpenguin, td, th{border-collapse: collapse;
 			  border: 1px solid rgb(0,0,0);
 			  overflow-x: hidden;
 }
@@ -95,7 +95,7 @@ th, td {min-width: 200px;}
 }
 .royalpenguin{table-layout: fixed;
 }
-.royalpenguin, td, th{border-collapse: collapse; 
+.royalpenguin, td, th{border-collapse: collapse;
 			  border: 1px solid rgb(0,0,0);
 			  overflow-x: hidden;
 }
@@ -110,7 +110,7 @@ th, td {min-width: 200px;}
 }
 .yelloweyedpenguin{table-layout: fixed;
 }
-.yelloweyedpenguin, td, th{border-collapse: collapse; 
+.yelloweyedpenguin, td, th{border-collapse: collapse;
 			  border: 1px solid rgb(0,0,0);
 			  overflow-x: hidden;
 }
@@ -120,7 +120,7 @@ td{height:35px;}
 th, td {min-width: 200px;}
 */
 .penguinbody {
-	background: url(penguinbackground.jpg);
+	background: url(../img/penguinbackground.jpg);
 	background-size: cover;
 }
 .penguinh1 {
@@ -134,7 +134,7 @@ th, td {min-width: 200px;}
 }
 .penguins{table-layout: fixed;
 }
-.penguins, td, th{border-collapse: collapse; 
+.penguins, td, th{border-collapse: collapse;
 			  border: 1px solid rgb(0,0,0);
 			  overflow-x: hidden;
 }

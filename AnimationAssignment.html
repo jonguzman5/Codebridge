@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">	
-	<title>Task</title>
+	<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+	<title>Weather</title>
 </head>
 <body class="weatherbody">
 <h1 id="weatherheader"><center>Weather</center></h1>
@@ -25,7 +25,7 @@
 <br>
 <style>
 .weatherbody {
-	background: url(skywallpaper.jpg);
+	background: url(./img/skywallpaper.jpg);
 	background-size: cover;
 }
 #weatherheader {
@@ -84,10 +84,10 @@ window.onclick = function(display) {
 
 <style>
 #myContainer {
-	width: 500px; 
+	width: 500px;
 	height: 450px;
 	position: relative;
-	background: url(sky.jpg);
+	background: url(./img/sky.jpg);
 	background-size: cover;
 }
 #myAnimation {
@@ -99,7 +99,7 @@ window.onclick = function(display) {
 </style>
 
 <center><div id="myContainer">
-<div id="myAnimation"> <img src="cloud.png" height="100" width="150"></div>	
+<div id="myAnimation"> <img src="./img/cloud.png" height="100" width="150"></div>
 </div></center>
 
 <center><button onclick="move()">Click Me</button></center>
@@ -117,7 +117,7 @@ function frame() {
 		elem.style.top = pos +'px';
 		elem.style.left = pos + 'px';
 	}
-  }	
+  }
 }
 </script>
 </body>
